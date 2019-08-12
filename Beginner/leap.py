@@ -1,9 +1,9 @@
-n=int(input(" "))
-if n%4==0 and n%100!=0:
+subi=int(input(" "))
+if subi%4==0 and subi%100!=0:
     print("yes")
-elif n%100==0:
+elif subi%100==0:
     print("no")
-elif n%400==0:
+elif subi%400==0:
     print("yes")
 else:
     print("no")
